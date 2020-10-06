@@ -4,12 +4,13 @@
   "description": "",
   "main": "contacts.js",
   "scripts": {
-    "start": "nodemon --watch contacts.js",
+    "start": "node contacts.js",
     "test": "jest --detectOpenHandles"
   },
   "author": "jrw@mit.edu",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jest": "^26.4.2",
     "lowdb": "^1.0.0",
